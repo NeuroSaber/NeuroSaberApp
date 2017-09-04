@@ -1,0 +1,71 @@
+<!--
+  Generated template for the Login page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content padding style="background-color: #edeff1">
+<form  [formGroup]="loginForm" (submit)="loginUser()" novalidate>
+
+	<div class="spacer" style="height: 150px;"></div>
+
+	<div>
+
+        <img src="img/logo-neurosaber.gif"  style="display: block; width: 70%; height: auto; margin-left: auto; margin-right: auto;">
+
+      </div>
+
+	<div class="spacer" style="height: 50px;"></div>
+
+	<ion-item>
+
+		<ion-input #email formControlName="email" type="email"   placeholder="Digite seu e-mail" [class.invalid]="!loginForm.controls.email.valid &&
+          loginForm.controls.email.dirty"></ion-input>
+
+	</ion-item>
+
+	 <ion-item class="error-message" *ngIf="!loginForm.controls.email.valid  &&
+      loginForm.controls.email.dirty">
+      <p>Por favor, entre com um email válido.</p>
+    </ion-item>
+
+
+
+
+
+	<ion-item>
+
+		<ion-input   #password formControlName="password" type="password"
+         placeholder="Digite sua senha"  [class.invalid]="!loginForm.controls.password.valid &&
+          loginForm.controls.password.dirty"></ion-input>
+
+	</ion-item>
+
+	<ion-item class="error-message" *ngIf="!loginForm.controls.password.valid  &&
+      loginForm.controls.password.dirty">
+      <p>Sua senha precisa ter pelo menos 6 caracteres.</p>
+    </ion-item>
+
+	<div class="spacer" style="height: 40px;"></div>
+
+	<button ion-button block style="background-color: #1abc9c" type="submit">
+      Entrar
+    </button>
+
+
+</form>
+
+
+<button ion-button block strong  clear style="color: #1abc9c" (click)="goToResetPassword()">
+    Esqueci minha senha
+  </button>
+
+  <button ion-button block strong clear style="color: #1abc9c" (click)="goToSignup()">
+    Criar conta
+  </button>
+
+
+</ion-content>

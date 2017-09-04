@@ -1,0 +1,222 @@
+
+//CSS's VALIDOS
+
+.block1{
+
+position: relative;
+height: 25%;
+opacity: 0.8;
+text-align: center;
+
+}
+
+.block2{
+
+position: relative;
+height: 25%;
+opacity: 0.8;
+text-align: center;
+
+
+}
+
+.dark-blue{
+  background: #1abc9c;
+  //float: left;
+    width: 45%;
+    height: 100%;
+    //margin: 1px;
+    color: #ffffff;
+    font-size: 125%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.missao{
+    background: #000000;
+    align: center;
+    width: 92%;
+    //height: 100%;
+    //margin: 1px;
+    color: #ffffff;
+    font-size: 125%;
+    margin-left:4%;
+    margin-right:4%;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    text-transform: none;
+}
+
+.missao:active{
+    background: #000000;
+    align: center;
+    width: 92%;
+    //height: 100%;
+    //margin: 1px;
+    color: #ffffff;
+    font-size: 125%;
+    margin-left:4%;
+    margin-right:4%;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    text-transform: none;
+}
+
+.versao{
+  text-align: center;
+  color: #1abc9c;
+  font-size: 100%;
+}
+
+
+.gotoext{
+
+width: 100%;
+text-align: center;
+color: #1abc9c;
+font-size: 100%;
+}
+
+//CSS's INVALIDOS
+
+page-free{
+
+has-header{
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5a67f;
+
+    }
+
+.block1{
+
+position: relative;
+height: 25%;
+opacity: 0.8;
+
+}
+
+.block2{
+
+position: relative;
+height: 25%;
+opacity: 0.8;
+
+}
+
+
+
+
+.dark-blue{
+  background: #1abc9c;
+  float: left;
+    width: 49%;
+    height: 100%;
+    //margin: 1px;
+    color: #ffffff;
+    font-size: 240%;
+}
+
+
+
+.blue{
+  background: #1abc9c;
+  float: right;
+    width: 49%;
+    height: 100%;
+    //margin: 1px;
+    color: #ffffff;
+    font-size: 240%;
+
+
+
+}
+
+.reflexoes{
+  background: #1abc9c;
+  float: left;
+    width: 49%;
+    height: 100%;
+  //  margin: 1px;
+    color: #ffffff;
+    font-size: 240%;
+
+
+}
+
+.reflex{
+font-size: 50%;
+ color: #ffffff;
+
+}
+
+.soft-yellow{
+  background: #1abc9c;
+  float: right;
+    width: 49%;
+    height: 100%;
+   // margin: 1px;
+    color: #ffffff;
+    font-size: 240%;
+
+
+
+
+
+}
+
+.orange{
+  background: #f5a67f;
+  float: left;
+    width: 49%;
+    height: 100%;
+    margin: 0px;
+    color: #ffffff;
+    font-weight: bold;
+
+
+}
+
+.icones{
+
+  position: relative;
+}
+
+.botao-premium{
+//opacity: 0.8;
+font-weight: bold;
+font-size: 150%;
+
+
+
+
+
+
+}
+
+.versao{
+
+  text-align: center;
+  color: #1abc9c;
+  font-size: 100%;
+
+
+}
+
+.portalneurosaber{
+
+  text-align: center;
+
+
+}
+
+
+
+
+}

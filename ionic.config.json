@@ -1,0 +1,8 @@
+{
+  "name": "NeuroSaber",
+  "app_id": "4ea25856",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
